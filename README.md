@@ -1,5 +1,5 @@
-# LeetCode
-A collection of problems I have solved on LeetCode for studying purposes.
+# LeetCodeSolutions-CSharp
+A collection of problems I have solved on LeetCode in C# for studying purposes.
 
 ## About
 I am collating my Leetcode solutions that I have created for my own studying purposes to reference at later dates.
