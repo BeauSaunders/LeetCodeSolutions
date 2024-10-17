@@ -2,6 +2,8 @@
 Last Solved: 16.10.24
 Topics Utilised: Dynamic Sliding Window, HashSet
 Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+Time Complexity: O(n)
+Space Compelxity: O(n)
 */
 
 public class Solution {
