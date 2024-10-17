@@ -1,3 +1,9 @@
+/*
+Last Solved: 16.10.24
+Topics Utilised: Dynamic Sliding Window, HashSet
+Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+*/
+
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
         if (string.IsNullOrEmpty(s)) return 0;
