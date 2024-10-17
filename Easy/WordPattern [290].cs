@@ -1,3 +1,9 @@
+/*
+Last Solved: 17.10.24
+Topics Utilised: Hash Table, String
+Link: https://leetcode.com/problems/word-pattern/
+*/
+
 public class Solution {
     public bool WordPattern(string pattern, string s) {
         string[] words = s.Split(' ');
