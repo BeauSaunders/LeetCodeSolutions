@@ -2,6 +2,8 @@
 Last Solved: 12.10.24
 Topics Utilised: Two Pointers
 Link: https://leetcode.com/problems/is-subsequence/
+Time Complexity: O(n)
+Space Complexity: O(1)
 */
 
 public class Solution {
