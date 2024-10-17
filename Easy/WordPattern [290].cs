@@ -2,6 +2,8 @@
 Last Solved: 17.10.24
 Topics Utilised: Hash Table, String
 Link: https://leetcode.com/problems/word-pattern/
+Time Complexity: O(n)
+Space Complexity: O(n)
 */
 
 public class Solution {
