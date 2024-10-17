@@ -2,6 +2,8 @@
 Last Solved: 11.10.24
 Topics Utilised: Greedy
 Link: https://leetcode.com/problems/gas-station/
+Time Complexity: O(n)
+Space Complexity: O(1)
 */
 
 public class Solution {
