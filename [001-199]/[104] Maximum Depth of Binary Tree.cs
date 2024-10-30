@@ -1,24 +1,11 @@
 /*
 Last Solved: 30.10.24
 Topics Utilised: Depth First Search, Binary Tree
-Link: https://leetcode.com/problems/two-sum/
+Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 Time Complexity: O(n)
 Space Complexity: O(n)
 */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     public int val;
- *     public TreeNode left;
- *     public TreeNode right;
- *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 public class Solution {
     public int MaxDepth(TreeNode root) {
         //If the node is null, don't include depth
@@ -33,3 +20,17 @@ public class Solution {
         return depth;
     }
 }
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
