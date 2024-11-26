@@ -25,10 +25,10 @@ public class Solution {
         }
 
         // while there are letters remaining in word2
-        while (i < w2Len)
+        if (i < w2Len)
         {
-            sb.Append(word2[i]);
-            i++;
+            // add the remaining word
+            sb.Append(word2.Substring(i, w2Len - i));
         }
 
         return sb.ToString();
