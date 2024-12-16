@@ -1,23 +1,18 @@
 /*
-Last Solved: 30.10.24
-Topics Utilised: Depth First Search, Binary Tree
-Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
-Time Complexity: O(n)
-Space Complexity: O(n)
+Last Solved: 16.12.24
+Topics Utilised: DFS
+Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+Time Complexity: O(n) 
+Space Complexity: O(h) [where h is the height of the tree (on the stack due to recursion)]
 */
 
 public class Solution {
     public int MaxDepth(TreeNode root) {
-        //If the node is null, don't include depth
-        if (root == null) return 0;
+        if (root == null)
+            return 0;
 
-        //Root node has a depth of 1
-        int depth = 1;
-
-        //Add to this depth, the maximum value from traversing the child nodes
-        depth += Math.Max(MaxDepth(root.left), MaxDepth(root.right));
-
-        return depth;
+        // depth of self + max depth of children (recursive)
+        return 1 + Math.Max(MaxDepth(root.left), MaxDepth(root.right));
     }
 }
 
