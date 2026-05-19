@@ -12,7 +12,6 @@ public class Solution {
 
         for (int i = 0; i < nums2.Length; i++)
         {
-            Console.WriteLine(nums2[i]);
             if (n1.Contains(nums2[i]))
                 return nums2[i];
         }
